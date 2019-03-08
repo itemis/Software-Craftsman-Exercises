@@ -10,7 +10,7 @@ public class StreamFeatureTest {
     private StreamFeature streamFeature;
 
     @Before
-    public void setUp() throws Exception {
+    public void setUp() {
         streamFeature = new StreamFeature();
     }
 

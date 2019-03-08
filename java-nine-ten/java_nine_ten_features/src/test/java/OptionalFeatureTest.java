@@ -19,6 +19,7 @@ public class OptionalFeatureTest {
         final String testName = "test_name";
         final Optional<String> optionalTestName = Optional.of(testName);
         final Optional<String> resultOptionalTestName = optionalFeature.provideAlternativeWithOr(optionalTestName);
+
         assertThat(resultOptionalTestName.orElse("fail")).isEqualTo(testName);
     }
 
@@ -26,6 +27,7 @@ public class OptionalFeatureTest {
     public void shouldProvideAlternativeOptionalWithOr() {
         final Optional<String> emptyOptional = Optional.empty();
         final Optional<String> resultOptionalTestName = optionalFeature.provideAlternativeWithOr(emptyOptional);
+        
         assertThat(resultOptionalTestName.orElse("fail")).isEqualTo("name_added_with_optional_or");
     }
 }

@@ -37,6 +37,7 @@ public class CollectionFeatureTest {
         final Map<String, String> someFfmItemisEmployees = collectionFeature.provideSomeFfmItemisEmployeesWithJavaNineMapOf();
         assertThat(someFfmItemisEmployees).containsOnly(entry("Christian", "W"), entry("Ali", "K"), entry("Rohit", "A"), entry("Sascha", "B"));
     }
+
     @Test
     public void shouldProvideSomeFfmItemisEmployeesWithJavaNineMapOfEntries() {
         final Map<String, String> someFfmItemisEmployees = collectionFeature.provideSomeFfmItemisEmployeesWithJavaNineMapOfEntries();
