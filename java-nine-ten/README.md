@@ -25,8 +25,7 @@ Wichtig: Für diese Übung wird ein installiertes Java 11 vorausgesetzt!
 Die Übung zum ausprobieren einiger Java 9/10 Features wird im Stiel von "CDD (Code Driven Development) - in dieser Übung nur ein Name" durchgeführt. Tests sind bereits implementiert und sollten als Anforderung (Doku) für die Realisierung dienen.
 Empfohlen wird für die Übung der Einsatzt von IntelliJ als IDE. Voraussetzung ist mindestens Java 10 und Maven.
 
-Schritt 1: Wechsel zu dem branch exercise\
-Schritt 2: git checkout -b "dein_name(euer_name)"\
-Schritt 3: Navigiere in den test ordner und starte alle Tests = Kein Test sollte grün sein!\
-Schritt 4: Impementiere jedes Feature und die entsprechenden Methoden anhand der einzelnen Tests und der entsprechenden Beschreibung im Test-Namen. 
+Schritt 1: git checkout -b "dein_name(euer_name)"\
+Schritt 2: Navigiere in den test ordner und starte alle Tests = Kein Test sollte grün sein!\
+Schritt 3: Impementiere jedes Feature und die entsprechenden Methoden anhand der einzelnen Tests und der entsprechenden Beschreibung im Test-Namen. 
 Ist der Test grün, kann das nächste Feature angegangen werden. Die Realisierungsdetails(Syntax, API etc.) müssen entsprechend selbstständig recherchiert werden!
